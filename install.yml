@@ -1,0 +1,7 @@
+---
+- hosts: local
+  become: true
+  roles:
+    - apache
+  vars:
+    apache_server_root: qudus@example.com 
